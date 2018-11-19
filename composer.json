@@ -1,0 +1,20 @@
+{
+  "name": "pangolinkeys/php-image-compressor",
+  "description": "Package to provide provide a service which can compress images",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "James Cook",
+      "email": "me@jamesaidancook.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Pangolinkeys\\Image\\": "src/"
+    }
+  },
+  "require": {
+    "pangolinkeys/pipe": "^1.1"
+  }
+}
